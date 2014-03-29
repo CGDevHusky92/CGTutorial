@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EFE309F18E65A8E003CBAFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFE309E18E65A8E003CBAFD /* Foundation.framework */; };
+		2EFE30A418E65A8E003CBAFD /* CGTutorial.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2EFE30A318E65A8E003CBAFD /* CGTutorial.h */; };
+		2EFE30AD18E65A8E003CBAFD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFE30AC18E65A8E003CBAFD /* XCTest.framework */; };
+		2EFE30AE18E65A8E003CBAFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFE309E18E65A8E003CBAFD /* Foundation.framework */; };
+		2EFE30B018E65A8E003CBAFD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFE30AF18E65A8E003CBAFD /* UIKit.framework */; };
+		2EFE30B318E65A8E003CBAFD /* libCGTutorial.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFE309B18E65A8E003CBAFD /* libCGTutorial.a */; };
+		2EFE30B918E65A8E003CBAFD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2EFE30B718E65A8E003CBAFD /* InfoPlist.strings */; };
+		2EFE30BB18E65A8E003CBAFD /* CGTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFE30BA18E65A8E003CBAFD /* CGTutorialTests.m */; };
+		2EFE310418E65D7C003CBAFD /* CGTutorialPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFE310118E65D7C003CBAFD /* CGTutorialPanel.m */; };
+		2EFE310518E65D7C003CBAFD /* CGTutorialView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFE310318E65D7C003CBAFD /* CGTutorialView.m */; };
+		2EFE310718E65DCC003CBAFD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFE310618E65DCC003CBAFD /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2EFE30B118E65A8E003CBAFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EFE309318E65A8E003CBAFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EFE309A18E65A8E003CBAFD;
+			remoteInfo = CGTutorial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2EFE309918E65A8E003CBAFD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				2EFE30A418E65A8E003CBAFD /* CGTutorial.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2EFE309B18E65A8E003CBAFD /* libCGTutorial.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCGTutorial.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EFE309E18E65A8E003CBAFD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2EFE30A218E65A8E003CBAFD /* CGTutorial-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CGTutorial-Prefix.pch"; sourceTree = "<group>"; };
+		2EFE30A318E65A8E003CBAFD /* CGTutorial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGTutorial.h; sourceTree = "<group>"; };
+		2EFE30AB18E65A8E003CBAFD /* CGTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CGTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EFE30AC18E65A8E003CBAFD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2EFE30AF18E65A8E003CBAFD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		2EFE30B618E65A8E003CBAFD /* CGTutorialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CGTutorialTests-Info.plist"; sourceTree = "<group>"; };
+		2EFE30B818E65A8E003CBAFD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2EFE30BA18E65A8E003CBAFD /* CGTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGTutorialTests.m; sourceTree = "<group>"; };
+		2EFE310018E65D7C003CBAFD /* CGTutorialPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTutorialPanel.h; sourceTree = "<group>"; };
+		2EFE310118E65D7C003CBAFD /* CGTutorialPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTutorialPanel.m; sourceTree = "<group>"; };
+		2EFE310218E65D7C003CBAFD /* CGTutorialView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTutorialView.h; sourceTree = "<group>"; };
+		2EFE310318E65D7C003CBAFD /* CGTutorialView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTutorialView.m; sourceTree = "<group>"; };
+		2EFE310618E65DCC003CBAFD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EFE309818E65A8E003CBAFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EFE310718E65DCC003CBAFD /* UIKit.framework in Frameworks */,
+				2EFE309F18E65A8E003CBAFD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EFE30A818E65A8E003CBAFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EFE30AD18E65A8E003CBAFD /* XCTest.framework in Frameworks */,
+				2EFE30B018E65A8E003CBAFD /* UIKit.framework in Frameworks */,
+				2EFE30AE18E65A8E003CBAFD /* Foundation.framework in Frameworks */,
+				2EFE30B318E65A8E003CBAFD /* libCGTutorial.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EFE309218E65A8E003CBAFD = {
+			isa = PBXGroup;
+			children = (
+				2EFE30A018E65A8E003CBAFD /* CGTutorial */,
+				2EFE30B418E65A8E003CBAFD /* CGTutorialTests */,
+				2EFE309D18E65A8E003CBAFD /* Frameworks */,
+				2EFE309C18E65A8E003CBAFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2EFE309C18E65A8E003CBAFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EFE309B18E65A8E003CBAFD /* libCGTutorial.a */,
+				2EFE30AB18E65A8E003CBAFD /* CGTutorialTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2EFE309D18E65A8E003CBAFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2EFE310618E65DCC003CBAFD /* UIKit.framework */,
+				2EFE309E18E65A8E003CBAFD /* Foundation.framework */,
+				2EFE30AC18E65A8E003CBAFD /* XCTest.framework */,
+				2EFE30AF18E65A8E003CBAFD /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2EFE30A018E65A8E003CBAFD /* CGTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				2EFE30A318E65A8E003CBAFD /* CGTutorial.h */,
+				2EFE310018E65D7C003CBAFD /* CGTutorialPanel.h */,
+				2EFE310118E65D7C003CBAFD /* CGTutorialPanel.m */,
+				2EFE310218E65D7C003CBAFD /* CGTutorialView.h */,
+				2EFE310318E65D7C003CBAFD /* CGTutorialView.m */,
+				2EFE30A118E65A8E003CBAFD /* Supporting Files */,
+			);
+			path = CGTutorial;
+			sourceTree = "<group>";
+		};
+		2EFE30A118E65A8E003CBAFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EFE30A218E65A8E003CBAFD /* CGTutorial-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2EFE30B418E65A8E003CBAFD /* CGTutorialTests */ = {
+			isa = PBXGroup;
+			children = (
+				2EFE30BA18E65A8E003CBAFD /* CGTutorialTests.m */,
+				2EFE30B518E65A8E003CBAFD /* Supporting Files */,
+			);
+			path = CGTutorialTests;
+			sourceTree = "<group>";
+		};
+		2EFE30B518E65A8E003CBAFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EFE30B618E65A8E003CBAFD /* CGTutorialTests-Info.plist */,
+				2EFE30B718E65A8E003CBAFD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2EFE309A18E65A8E003CBAFD /* CGTutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EFE30BE18E65A8E003CBAFD /* Build configuration list for PBXNativeTarget "CGTutorial" */;
+			buildPhases = (
+				2EFE309718E65A8E003CBAFD /* Sources */,
+				2EFE309818E65A8E003CBAFD /* Frameworks */,
+				2EFE309918E65A8E003CBAFD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CGTutorial;
+			productName = CGTutorial;
+			productReference = 2EFE309B18E65A8E003CBAFD /* libCGTutorial.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2EFE30AA18E65A8E003CBAFD /* CGTutorialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EFE30C118E65A8E003CBAFD /* Build configuration list for PBXNativeTarget "CGTutorialTests" */;
+			buildPhases = (
+				2EFE30A718E65A8E003CBAFD /* Sources */,
+				2EFE30A818E65A8E003CBAFD /* Frameworks */,
+				2EFE30A918E65A8E003CBAFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EFE30B218E65A8E003CBAFD /* PBXTargetDependency */,
+			);
+			name = CGTutorialTests;
+			productName = CGTutorialTests;
+			productReference = 2EFE30AB18E65A8E003CBAFD /* CGTutorialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2EFE309318E65A8E003CBAFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Revision Works, LLC";
+			};
+			buildConfigurationList = 2EFE309618E65A8E003CBAFD /* Build configuration list for PBXProject "CGTutorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2EFE309218E65A8E003CBAFD;
+			productRefGroup = 2EFE309C18E65A8E003CBAFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EFE309A18E65A8E003CBAFD /* CGTutorial */,
+				2EFE30AA18E65A8E003CBAFD /* CGTutorialTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2EFE30A918E65A8E003CBAFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EFE30B918E65A8E003CBAFD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EFE309718E65A8E003CBAFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EFE310518E65D7C003CBAFD /* CGTutorialView.m in Sources */,
+				2EFE310418E65D7C003CBAFD /* CGTutorialPanel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EFE30A718E65A8E003CBAFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EFE30BB18E65A8E003CBAFD /* CGTutorialTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2EFE30B218E65A8E003CBAFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EFE309A18E65A8E003CBAFD /* CGTutorial */;
+			targetProxy = 2EFE30B118E65A8E003CBAFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2EFE30B718E65A8E003CBAFD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EFE30B818E65A8E003CBAFD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2EFE30BC18E65A8E003CBAFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2EFE30BD18E65A8E003CBAFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2EFE30BF18E65A8E003CBAFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/CGTutorial.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CGTutorial/CGTutorial-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2EFE30C018E65A8E003CBAFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/CGTutorial.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CGTutorial/CGTutorial-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2EFE30C218E65A8E003CBAFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CGTutorial/CGTutorial-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CGTutorialTests/CGTutorialTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2EFE30C318E65A8E003CBAFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CGTutorial/CGTutorial-Prefix.pch";
+				INFOPLIST_FILE = "CGTutorialTests/CGTutorialTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EFE309618E65A8E003CBAFD /* Build configuration list for PBXProject "CGTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EFE30BC18E65A8E003CBAFD /* Debug */,
+				2EFE30BD18E65A8E003CBAFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EFE30BE18E65A8E003CBAFD /* Build configuration list for PBXNativeTarget "CGTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EFE30BF18E65A8E003CBAFD /* Debug */,
+				2EFE30C018E65A8E003CBAFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2EFE30C118E65A8E003CBAFD /* Build configuration list for PBXNativeTarget "CGTutorialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EFE30C218E65A8E003CBAFD /* Debug */,
+				2EFE30C318E65A8E003CBAFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2EFE309318E65A8E003CBAFD /* Project object */;
+}
