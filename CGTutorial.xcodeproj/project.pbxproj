@@ -419,6 +419,7 @@
 				2EFE30C018E65A8E003CBAFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2EFE30C118E65A8E003CBAFD /* Build configuration list for PBXNativeTarget "CGTutorialTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +428,7 @@
 				2EFE30C318E65A8E003CBAFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
